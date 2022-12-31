@@ -225,6 +225,10 @@ header {
         -webkit-text-stroke: 1px #f54768;
     }
 
+    .title h1 {
+         font-size: 18px;
+      }
+
     .minfo table tr th {
         width: 40%;
         height: 40px;

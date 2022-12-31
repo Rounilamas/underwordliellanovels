@@ -160,6 +160,20 @@ header {
     color: white;
 }
 
+.volumenes figure a{
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(#27f743, #711eed);
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    align-self: center;
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
 .volumenes .line1{
     width: 95%;
     background-color:#ffffff;
@@ -213,7 +227,7 @@ header {
     }
 
     .title h1 {      
-        font-size: 15px;
+        font-size: 18px;
       }
 
     .minfo table tr th {

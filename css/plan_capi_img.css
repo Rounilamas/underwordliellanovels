@@ -77,9 +77,15 @@ color: white;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-line-height: 2.5;
+line-height: 2;
 }
 
+.texto_capitulo pre{
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    white-space: pre-line;
+    
+}
 
 .texto_capitulo .line1{
     width: 100%;
@@ -116,7 +122,6 @@ line-height: 2.5;
     width: 95%;
     margin: 10px auto;
 }
-
 
 .footer {
     width: 100%;

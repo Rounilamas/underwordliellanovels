@@ -44,8 +44,9 @@ header {
 }
 
 .header-content h1 {
-    color: white;
-    font-size: 7vmin;
+    color: black;
+    font-size: 9vmin;
+-webkit-text-stroke:.5px white;
    }
 
 .title {
@@ -57,6 +58,7 @@ header {
     flex-wrap: wrap;
     text-align: center;
     margin: 30px auto;
+    /* line-height si lo pueden modificar es el ancho de separacion de cada linea */
     line-height: 3;
 }
 
@@ -160,6 +162,7 @@ header {
 .explore-content h1 {
     font-size: 50px;
     align-self: flex-end;
+    
 }
 
 .explore-content h3 {
@@ -235,8 +238,8 @@ margin: 10px auto;
     }
 
     .header-content {
-        margin-bottom: 80px;
-        -webkit-text-stroke: 1px #f54768;
+        margin-bottom: 20px;
+       
     }
     .title img {
         width: 95%;
@@ -270,7 +273,7 @@ margin: 10px auto;
 
      .explore-content {
         width: 100%;
-        -webkit-text-stroke: 1px #f54768;
+        -webkit-text-stroke: 1px #090909;
     }
  
 }

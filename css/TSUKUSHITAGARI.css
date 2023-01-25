@@ -8,7 +8,7 @@ body {
     background-color: rgb(32, 32, 44);
 }
 
-nav {
+/* nav {
     position: absolute;
     width: 100%;
     height: auto;
@@ -48,7 +48,7 @@ header {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
-}
+} */
 
 .title {
     color: white;
@@ -200,7 +200,7 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-    nav a img {
+    /* nav a img {
         margin: 10px;
         position: relative;
         display: flex;
@@ -223,7 +223,7 @@ header {
     .header-content {
         margin-bottom: 80px;
         -webkit-text-stroke: 1px #f54768;
-    }
+    } */
 
     .title h1 {      
         font-size: 15px;

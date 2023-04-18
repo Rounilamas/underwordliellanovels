@@ -46,8 +46,8 @@ header {
 .header-content h1 {
     color: black;
     font-size: 9vmin;
--webkit-text-stroke:.5px white;
-   }
+    -webkit-text-stroke: .5px white;
+}
 
 .title {
     color: white;
@@ -67,6 +67,75 @@ header {
     height: 350px;
     align-self: center;
     margin: 10px;
+}
+
+.title pre {
+    white-space: pre-line;
+    font-weight: bold;
+}
+
+.visitados {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    /* outline: 1px solid red; */
+    justify-content: space-around;
+    flex-direction: column;
+    transition: 1s;
+    overflow: hidden;
+    position: relative;
+}
+
+.visitados-title {
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 23px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.visitados-card {
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    transition: 0.5s linear;
+    transition: all 0.5s ease;
+}
+
+.visit {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    margin: 5px;
+    object-fit: cover;
+    transform: translateX(174px);
+    animation-name: mover;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-delay: 4s;
+    transition: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(174px);
+        transition: .5s;
+    }
+
+    100% {
+        transform: translateX(-135px);
+        transition: .5s;
+    }
+
 }
 
 .col-novels {
@@ -104,7 +173,7 @@ header {
     align-self: center;
 }
 
-.col-novels figure h4{
+.col-novels figure h4 {
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -128,7 +197,7 @@ header {
     align-self: center;
 }
 
-.recluta p{
+.recluta p {
     margin: 10px;
     width: 80%;
     align-self: center;
@@ -163,7 +232,7 @@ header {
 .explore-content h1 {
     font-size: 50px;
     align-self: flex-end;
-    
+
 }
 
 .explore-content h3 {
@@ -172,36 +241,36 @@ header {
     text-align: right;
 }
 
-.redes_sociales{
+.redes_sociales {
     display: flex;
     width: 90%;
     height: auto;
     flex-wrap: wrap;
     gap: 0;
-    justify-content:center;
+    justify-content: center;
     margin: 20px auto;
 }
 
-.redes_sociales figure{
+.redes_sociales figure {
     display: flex;
     flex-direction: column;
     margin: 20px 0px;
-   }
+}
 
-.redes_sociales figure a{
+.redes_sociales figure a {
     margin: 0;
 }
 
-.redes_sociales figure a img{
+.redes_sociales figure a img {
     width: 50px;
     height: 50px;
     position: relative;
     margin: 0;
 }
 
-#disqus_thread{
-width: 95%;
-margin: 10px auto;
+#disqus_thread {
+    width: 95%;
+    margin: 10px auto;
 }
 
 .footer {
@@ -240,8 +309,36 @@ margin: 10px auto;
 
     .header-content {
         margin-bottom: 20px;
-       
+
     }
+
+    .visit {
+        width: 200px;
+        margin: 5px;
+        height: 270px;
+        animation-name: mover;
+        transform: translateX(410px);
+        object-fit: contain;
+    }
+
+    @keyframes mover {
+        0% {
+            transform: translateX(410px);
+            transition: .5s;
+        }
+
+        /* 50%{
+            transform: translateX(-70px);
+        }
+        75%{
+            transform: translateX(-50px);
+        } */
+        100% {
+            transform: translateX(-420px);
+            transition: .5s;
+        }
+    }
+
     .title img {
         width: 95%;
         height: 250px;
@@ -250,8 +347,8 @@ margin: 10px auto;
     }
 
     .title {
-       line-height: 2;
-       font-size: 10px;
+        line-height: 2;
+        font-size: 10px;
     }
 
     .recluta img {
@@ -261,7 +358,7 @@ margin: 10px auto;
         align-self: center;
     }
 
-    .recluta p{
+    .recluta p {
         width: 95%;
         align-self: center;
         font-size: 15px;
@@ -272,9 +369,9 @@ margin: 10px auto;
         height: 40vh;
     }
 
-     .explore-content {
+    .explore-content {
         width: 100%;
         -webkit-text-stroke: 1px #090909;
     }
- 
+
 }

@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(32, 32, 44);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav {
@@ -26,7 +27,7 @@ header {
     color: white;
     width: 100%;
     height: 70vh;
-    background-image: url('/img/hozumi3.jpg');
+    background-image: url('/img/sekaiichiback1.jpeg');
     background-position: top;
     background-size: 100% 430px;
     background-repeat: no-repeat;
@@ -114,14 +115,15 @@ header {
     text-align: center;
 }
 
-.minfo table .sinop2 td{
-    line-height: 2;
+.sinop2 pre{
+    white-space: pre-line;
+    line-height: 1.5;
 }
 
 .backgraoud{
     width: 90%;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 20px auto;
 }
@@ -140,7 +142,7 @@ header {
     margin: 20px auto;
 }
 
-.volumenes .figure{
+.volumenes figure{
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -149,18 +151,18 @@ header {
     margin-top: 20px;
 }
 
-.volumenes .figure img{
+.volumenes figure img{
     position: relative;
     width: 95%;
     height: 350px;
     align-self: center;
 }
-.volumenes .figure h4{
+.volumenes figure h4{
     margin: 8px;
     color: white;
 }
 
-.volumenes .figure .link{
+.volumenes figure a{
     text-decoration: none;
     color: white;
     background:linear-gradient(#27f743, #711eed);
@@ -212,7 +214,7 @@ header {
         color: white;
         width: 100%;
         height: 40vh;
-        background-image: url('/img/hozumi3.jpg');
+        background-image: url('/img/sekaiichiback2.jpeg');
         background-position: top;
         background-size: 100% 350px;
         background-repeat: no-repeat;
@@ -225,8 +227,8 @@ header {
         -webkit-text-stroke: 1px #f54768;
     }
 
-    .title h1 {      
-        font-size: 15px;
+    .title h1 {
+         font-size: 18px;
       }
 
     .minfo table tr th {

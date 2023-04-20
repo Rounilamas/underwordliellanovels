@@ -1,6 +1,5 @@
 import { todo } from "./datos.js"
 
-console.log("todo", todo)
 let volumen = document.querySelector(".volumenes")
 let title = document.querySelector("title")
 let titles = title.textContent.toLowerCase();

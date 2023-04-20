@@ -48,13 +48,9 @@ export let todo = {
         { volumen: "Volumen 1", drive: "#", mega: "https://mega.nz/file/U5U1nDjQ#vrGWyKN8WgeEi3RRALzk0TgzH06YQ3oICgB-JPsgakk", imagen: "/img/Soudana.jpg", visitas: 0, id: 13 },
     ],
     OMIAI: [
-        {id: 14, volumen: "Volumen 1", drive: "#", mega: "https://mega.nz/file/YptAnbjb#iRop45bu7MswyW82tZgBTfDNuyww17uSoOnt8oOeBB4", imagen: "https://i.ibb.co/Wf25RkG/Omiai-Portada.jpg", altt: "iinazuke", visitas: 0 },
+        { id: 14, volumen: "Volumen 1", drive: "#", mega: "https://mega.nz/file/YptAnbjb#iRop45bu7MswyW82tZgBTfDNuyww17uSoOnt8oOeBB4", imagen: "https://i.ibb.co/Wf25RkG/Omiai-Portada.jpg", altt: "iinazuke", visitas: 0 },
         { volumen: "Volumen 2", drive: "#", mega: "https://mega.nz/file/pkFDnITL#KWWhAHEgt4L6eeYFeWIiMilahmNSNG-xVOkv_lwFipU", imagen: "https://i.ibb.co/VjmHDQM/Omiai-vol2.jpg", altt: "iinazuke", visitas: 0 },
         { volumen: "Volumen 3", drive: "#", mega: "https://mega.nz/file/o50zwSya#_FupfKvQF1DSe59F-wYeu049pEfEWToqq7W3RRZaQqU", imagen: "https://i.ibb.co/wzX233Y/Omiaivol3.jpg", altt: "iinazuke", visitas: 0 },
     ],
 }
-
-
-
-
 

@@ -17,11 +17,31 @@ function visitados(visit) {
   ele.innerHTML = ""
   visit.forEach(it => {
     let div = `
-      <img src="${it.imagen}" class="visit">      
+      <img src="${it.imagen}" class="swiper-slide visit">      
       `
     ele.insertAdjacentHTML("afterbegin", div)
     console.log("data f", ele)
   })
 }
+
+var swiper = new Swiper(".visitados", {
+  loop:true,
+  spaceBetween: 0,
+  centeredSlides:true,
+  autoplay: {
+      delay: 5000,
+    },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
 
 

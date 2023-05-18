@@ -47,7 +47,7 @@ link.forEach(lin => {
             Swal.fire({
                 position: 'top-end',
                 icon: 'error',
-                title: 'Novela no disponible',
+                title: 'Novela o link no disponible',
                 showConfirmButton: false,
                 timer: 3500,
                 width: '20em'
